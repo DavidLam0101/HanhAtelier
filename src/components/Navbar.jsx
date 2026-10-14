@@ -19,7 +19,7 @@ export default function Navbar() {
 
   return (
     <nav className="nav">
-      <Link to="/" className="nav-brand" onClick={() => setActive('Home')}>HanhAtelier</Link>
+      <Link to="/" className="nav-brand" onClick={() => setActive('Home')}>PolishMyGem</Link>
       <div className="nav-links">
         {LINKS.map(({ label, hash }) => (
           // On /profile the links go back to the home page sections

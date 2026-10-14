@@ -1,10 +1,10 @@
 /* Layout: dark nav → photo hero (left-to-middle black gradient + script slogan)
    → pale teal body with arched nail cards (3/2/1 cols) → cream price list → maroon footer */
 :root {
-  --nav: #3a1a0c;
-  --gold: #e0b51c;
+  --nav: #5a0a12;
+  --gold: #ffe588;
   --navy: #02003a;
-  --mist: #d6e3e2;
+  --mist: #09001a;
   --cream: #fdf5e4;
   --ink: #4a0d16;
   --red: #c8104f;
@@ -123,7 +123,7 @@ button, input, textarea { font: inherit; }
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.95) 30%, rgba(0, 0, 0, 0) 60%); /* near-solid black to 30%, then fades out */
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%,rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0) 35%); /* near-solid black to 30%, then fades out */
 }
 .hero h1 {
   position: relative;
