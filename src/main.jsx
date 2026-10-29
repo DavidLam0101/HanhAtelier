@@ -12,7 +12,7 @@ import './index.css';
 Promise.all([loadSiteData(), initialSession().catch(() => false)]).then(([, isAdmin]) => {
   ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <SiteProvider initialAdmin={isAdmin}>
           <App />
         </SiteProvider>
